@@ -22,3 +22,5 @@ jobs:
         run: yarn install 
       - name: Test build website
         run: yarn build
+permissions:
+  contents: write
